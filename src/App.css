@@ -1,38 +1,913 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(180, 180, 180);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  height: 200px;
+}
+
+/* ********************** */
+/********* HEADER *********/
+/* ********************** */
+.header {
+  background-color: rgb(69, 69, 69);
+  width: 100%;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0px;
+
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.all-header {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-search {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+.logo-beer {
+  height: 100px;
+}
+
+.top-menu {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.click-menu {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.click-menu:hover {
+  color: rgb(255, 247, 0);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  transition: 1s;
+}
+
+.filter-search {
+  border: none;
+  outline: none;
+  padding: 5px 5px 5px 40px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgb(250, 242, 232);
+  background-image: url("./images/search.png");
+  background-size: 20px;
+  background-position: 10px 3px;
+  background-repeat: no-repeat;
+}
+
+.filter-search[type="search"]::-webkit-search-cancel-button {
+  opacity: 40%;
+  position: relative;
+  right: 5px;
+}
+
+.random-beer {
+  font-size: 12px;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.random-beer:hover {
+  border: none;
+  border-radius: 15px;
+  width: 110px;
+  height: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(255, 247, 0);
+  transition: 0.25s;
+}
+
+.all-filters {
+  /* border: 1px solid white; */
+  background-color: rgba(209, 209, 209, 0.786);
+  padding: 10px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  opacity: 30%;
+}
+
+.all-filters:hover {
+  opacity: 100%;
+  transition: 1s;
+}
+
+/* ********************** */
+/********* HOME ***********/
+/* ********************** */
+.container-home {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.img-top-home {
+  width: 100%;
+  object-fit: cover;
+}
+
+.presentation-home {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: -2px;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0)),
+    url("./images/fabio-alves.jpg");
+}
+
+.hat-home,
+.hat-beers {
+  color: white;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hat-home {
+  padding: 48vw 40px 0px 40px;
+}
+
+.hat-beers {
+  padding: 120px 0px 0px 0px;
+}
+
+.all-legends {
+  background-color: rgba(255, 255, 255, 0.436);
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px 2px;
+}
+
+.pictos-legende {
+  height: 150px;
+}
+
+.legend {
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.375);
+  border-radius: 20px;
+  margin: 40px 10px;
+  padding: 10px 5px;
+}
+
+.title-home {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px 20px 5px 20px;
+}
+
+.text-home {
+  padding: 5px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 100;
+}
+
+.important-text {
+  width: 40vw;
+  text-align: center;
+  color: white;
+  background: radial-gradient(#a10000b4, #000000ba 70%);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 22px;
+}
+
+.bold-text {
+  color: white;
+  font-weight: 600;
+}
+
+.all-rounds {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+}
+
+.firts-round {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.second-round {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* ********************** */
+/********** BEERS *********/
+/* ********************** */
+.container-all-beers {
+  /* border: 10px solid green; */
+}
+
+.filters {
+  /* border: 1px solid red; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.top-pagination {
+  height: 25px;
+}
+
+.filter-abv {
+  /* border: 1px solid red; */
+  width: 160px;
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.filter-abv p {
+  font-size: 13px;
+}
+
+.input-abv {
+  width: 40px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px 5px 5px 13px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgb(69, 69, 69);
+}
+
+.input-abv::placeholder {
+  color: white;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.input-abv:-ms-input-placeholder {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-abv::-ms-input-placeholder {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.all-beers,
+.all-caves,
+.beers {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0)),
+    url("./images/fabio-alves.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.all-beers {
+  padding: 50px 20px;
+}
+
+.beers {
+  padding: 120px 20px;
+}
+
+.one-beer,
+.cave {
+  /* border: solid 1px red; */
+  border-radius: 10px;
+  width: 200px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 5px;
+  background-color: rgba(255, 255, 255, 0.457);
+  box-shadow: rgba(84, 84, 84, 0.27) 0px 0px 0.25em,
+    rgba(198, 198, 198, 0.05) 0px 0.25em 1em;
+  position: relative;
+}
+
+.one-beer:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.75s;
+}
+
+.one-beer:hover,
+.tagline-beer:hover,
+.title-bar-area:hover {
+  color: white;
+}
+
+.name-beer:hover {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: white;
+  letter-spacing: 1px;
+  transition: 0.75s;
+}
+
+.visual-beer,
+.beer-not-found {
+  height: 200px;
+}
+.replace-keg {
+  height: 200px;
+  z-index: 4;
+}
+
+.name-beer {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline-beer {
+  font-size: 14px;
+  line-height: 16;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 16px;
+  text-align: center;
+}
+
+.bar-area {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.picto-all-beer {
+  height: 40px;
+}
+
+.title-bar-area {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  overflow: hidden;
+  width: 125px;
+  height: 10px;
+  position: relative;
+  margin: 0px 0;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 6px;
+}
+
+.result-bar {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(195, 119, 4);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.color-round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ebc-meter {
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin: 5px 0;
+  background: rgb(255, 255, 255);
+  border-radius: 100%;
+  padding: 3px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.result-ebc {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.abv-beers {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* ********************** */
+/***** DETAILS BEERS ******/
+/* ********************** */
+.detail-beer {
+  /* border: solid 1px red; */
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 20px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.arrow-back img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.arrow-refresh img {
+  height: 45px;
+  cursor: pointer;
+}
+
+.arrow-back img:hover {
+  height: 60px;
+}
+
+.arrow-refresh img:hover {
+  height: 55px;
+}
+
+.arrow-back img:hover,
+.arrow-refresh img:hover {
+  transition: 0.5s;
+}
+
+.arrow-back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.arrow-refresh {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.detail-visual,
+.big-beer-not-found {
+  height: 600px;
+}
+
+.left-image {
+  /* border: solid 1px green; */
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  flex: 1;
+}
+
+.all-detail-text {
+  /* border: solid 1px blue; */
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.detail-title {
+  width: 550px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 0px 20px 0px 0px;
+  box-sizing: border-box;
+}
+
+.all-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.description {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  flex: 3;
+}
+
+.left-section p {
+  font-weight: 700;
+}
+
+.left-section p,
+.right-section p {
+  line-height: 20px;
+}
+
+.detail-tagline {
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.degrees {
+  color: rgb(255, 247, 0);
+  background-color: rgb(69, 69, 69);
+  font-size: 16px;
+  font-weight: 100;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+/* ********************** */
+/********* CAVES **********/
+/* ********************** */
+.all-caves {
+  margin-top: 100px;
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.title-caves {
+  text-align: center;
+  /* border: 1px solid red; */
+  color: rgba(255, 255, 255, 0.65);
+  width: 250px;
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.baseline-caves {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 27.5px;
+  line-height: 20px;
+  color: white;
+}
+
+.baseline-country {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 50px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sad-emoji {
+  height: 20px;
+}
+
+.cave {
+  /* border: 1px solid red; */
+  padding: 10px;
+  width: 250px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.cave-name {
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.cave-adress {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.closed {
+  font-size: 12px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: rgba(0, 0, 0, 0.75);
+  background-color: #feba00;
+  padding: 2px 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.top-caves {
+  height: 100px;
+}
+
+.bottom-caves {
+  height: 90px;
+}
+
+/* ********************** */
+/********* FOOTER **********/
+/* ********************** */
+.footer {
+  height: 100px;
+  background-color: rgb(69, 69, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0vh 0vw 1vh 0vw;
+}
+
+.logos-footer {
+  height: 25px;
+}
+
+.logos-footer:hover {
+  cursor: pointer;
+}
+
+.sign {
+  color: rgb(167, 167, 167);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+/* ********************** */
+/******** MAX 767PX *******/
+/* ********************** */
+@media (max-width: 767px) {
+  .all-header {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .all-filters {
+    width: 100%;
+    background-color: rgba(209, 209, 209, 0.786);
+    padding: 10px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .filter-search {
+    width: 30vw;
+    padding: 5px 5px 5px 25px;
+    background-position: 5px 3px;
+  }
+
+  .hat-beers {
+    padding: 290px 0px 0px 0px;
+  }
+
+  .img-top-home {
+    position: relative;
+    top: 280px;
+  }
+
+  .arrow-back {
+    position: fixed;
+    top: 300px;
+    left: 30px;
+    z-index: 1;
+  }
+
+  .arrow-refresh {
+    position: fixed;
+    top: 300px;
+    right: 30px;
+    z-index: 1;
+  }
+
+  .detail-beer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    gap: 15px;
+  }
+
+  .left-image {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .detail-title {
+    width: 300px;
+  }
+
+  .left-section {
+    flex: 2;
+  }
+
+  .right-section {
+    flex: 3;
+    text-align: right;
+  }
+
+  .right-section p {
+    text-align: right;
+  }
+
+  .all-detail-text {
+    width: 300px;
+  }
+
+  .all-caves {
+    padding: 240px 0px 70px 0px;
+  }
+
+  .presentation-home {
+    margin-top: 270px;
+  }
+
+  .top-caves {
+    height: 210px;
+  }
+
+  .bottom-caves {
+    height: 20px;
+  }
+}
+
+/* ********************** */
+/******** MIN 768PX *******/
+/* ********************** */
+@media (min-width: 768px) {
+  .filters {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .hat-home {
+    padding: 300px 30px 0px 50px;
   }
 }

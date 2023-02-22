@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+
+// PAGES
+import AllBeers from "./pages/AllBeers";
+import Beer from "./pages/Beer";
+import Home from "./pages/Home";
+import Header from "./components/Header";
+import RandomBeer from "./pages/RandomBeer";
+import Caves from "./pages/Caves";
+import Footer from "./components/Footer";
 
 function App() {
+  // STATES
+  const [search, setSearch] = useState("");
+  const [page, setPage] = useState(1);
+  const [abv_gt, setAbv_gt] = useState("");
+  const [abv_lt, setAbv_lt] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header
+        search={search}
+        setSearch={setSearch}
+        abv_gt={abv_gt}
+        setAbv_gt={setAbv_gt}
+        abv_lt={abv_lt}
+        setAbv_lt={setAbv_lt}
+      />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/beers"
+          element={
+            <AllBeers
+              search={search}
+              page={page}
+              setPage={setPage}
+              abv_gt={abv_gt}
+              setAbv_gt={setAbv_gt}
+              abv_lt={abv_lt}
+              setAbv_lt={setAbv_lt}
+            />
+          }
+        />
+        <Route path="/beer/:id" element={<Beer />} />
+        <Route path="/random" element={<RandomBeer />} />
+        <Route path="/caves" element={<Caves />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

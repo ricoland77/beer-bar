@@ -1,0 +1,732 @@
+
+[
+  {
+    "nom": "Bootlegger",
+    "adresse": "82 Rue de l'Ouest, 75014 Paris",
+    "zone": 75014,
+    "latitude": "48.835080",
+    "longitude": "2.317038",
+    "ouverture": "1982-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Cave à bière",
+    "adresse": "202 Rue de Paris, 95150 Taverny",
+    "zone": 95000,
+    "latitude": "49.024984",
+    "longitude": "2.228275",
+    "ouverture": "1990-06-29T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières et Malts",
+    "adresse": "13 Boulevard de la Liberté, 94170 Le Perreux-sur-Marne",
+    "zone": 94000,
+    "latitude": "48.836674",
+    "longitude": "2.496250",
+    "ouverture": "1998-06-29T22:00:00.000Z",
+    "fermeture": "2018-11-01T23:00:00.000Z"
+  }, {
+    "nom": "Pommier",
+    "adresse": "Place d’Aligre, 75012 Paris",
+    "zone": 75012,
+    "latitude": "48.848997",
+    "longitude": "2.377779",
+    "ouverture": "1998-06-30T22:00:00.000Z",
+    "fermeture": "2017-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Cave à bulles",
+    "adresse": "45 Rue Quincampoix, 75004 Paris",
+    "zone": 75004,
+    "latitude": "48.861062",
+    "longitude": "2.350451",
+    "ouverture": "2006-06-30T22:00:00.000Z",
+    "fermeture": "2020-01-17T23:00:00.000Z"
+  }, {
+    "nom": "Bières cultes - Damrémont",
+    "adresse": "40 Rue Damrémont, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.889527",
+    "longitude": "2.333894",
+    "ouverture": "2007-06-30T22:00:00.000Z",
+    "fermeture": "2019-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Terre de bières",
+    "adresse": "85 bis Boulevard de Magenta, 75010 Paris",
+    "zone": 75010,
+    "latitude": "48.876394",
+    "longitude": "2.355653",
+    "ouverture": "2008-06-30T22:00:00.000Z",
+    "fermeture": "2012-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Bières cultes - Legendre",
+    "adresse": "25 Rue Legendre, 75017 Paris",
+    "zone": 75017,
+    "latitude": "48.884199",
+    "longitude": "2.314062",
+    "ouverture": "2009-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Brewberry",
+    "adresse": "18 Rue du Pot-de-Fer, 75005 Paris",
+    "zone": 75005,
+    "latitude": "48.842970",
+    "longitude": "2.348552",
+    "ouverture": "2010-06-30T22:00:00.000Z",
+    "fermeture": "2019-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Chop'in",
+    "adresse": "45 Rue de Gergovie, 75014 Paris",
+    "zone": 75014,
+    "latitude": "48.833100",
+    "longitude": "2.316386",
+    "ouverture": "2010-06-30T22:00:00.000Z",
+    "fermeture": "2020-01-24T23:00:00.000Z"
+  }, {
+    "nom": "Hop malt market",
+    "adresse": "79 Rue Saint-Maur, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.863689",
+    "longitude": "2.378647",
+    "ouverture": "2010-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières cultes - Châtelet",
+    "adresse": "14 Rue des Halles, 75001 Paris",
+    "zone": 75001,
+    "latitude": "48.859894",
+    "longitude": "2.346848",
+    "ouverture": "2011-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Cervoise 91",
+    "adresse": "62 Rue de Gravigny, 91380 Chilly-Mazarin",
+    "zone": 91000,
+    "latitude": "48.694722",
+    "longitude": "2.308748",
+    "ouverture": "2011-10-12T22:00:00.000Z",
+    "fermeture": "2015-02-04T23:00:00.000Z"
+  }, {
+    "nom": "Bière & Malt",
+    "adresse": "4 Rue Poissonnière, 75002 Paris",
+    "zone": 75002,
+    "latitude": "48.868686",
+    "longitude": "2.347839",
+    "ouverture": "2012-06-30T22:00:00.000Z",
+    "fermeture": "2018-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Paris saint bière",
+    "adresse": "101 Rue de Charonne, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.854571",
+    "longitude": "2.384318",
+    "ouverture": "2012-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Moustache blanche",
+    "adresse": "16 Rue des Tournelles, 75004 Paris",
+    "zone": 75004,
+    "latitude": "48.854549",
+    "longitude": "2.367387",
+    "ouverture": "2012-11-20T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières cultes - Cardinal",
+    "adresse": "44 Rue des Boulangers, 75005 Paris",
+    "zone": 75005,
+    "latitude": "48.846497",
+    "longitude": "2.352070",
+    "ouverture": "2013-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bièrissime",
+    "adresse": "85 bis Boulevard de Magenta, 75010 Paris",
+    "zone": 75010,
+    "latitude": "48.876394",
+    "longitude": "2.355653",
+    "ouverture": "2013-06-30T22:00:00.000Z",
+    "fermeture": "2016-06-29T22:00:00.000Z"
+  }, {
+    "nom": "People drugstore",
+    "adresse": "78 Rue des Martyrs, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.882953",
+    "longitude": "2.339856",
+    "ouverture": "2013-06-30T22:00:00.000Z",
+    "fermeture": "2016-06-29T22:00:00.000Z"
+  }, {
+    "nom": "À la bière comme à la bière - Custine",
+    "adresse": "20 Rue Custine, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.888661",
+    "longitude": "2.347654",
+    "ouverture": "2013-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Beer Town",
+    "adresse": "15 Rue du Val, 77160 Provins",
+    "zone": 77000,
+    "latitude": "48.560399",
+    "longitude": "3.297769",
+    "ouverture": "2013-07-05T22:00:00.000Z",
+    "fermeture": "2019-03-21T23:00:00.000Z"
+  }, {
+    "nom": "Biérocratie",
+    "adresse": "32 Rue de l'Espérance, 75013 Paris",
+    "zone": 75013,
+    "latitude": "48.825476",
+    "longitude": "2.346943",
+    "ouverture": "2013-07-19T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Arômes Bières",
+    "adresse": "132 Rue des Bourguignons, 92600 Asnières-sur-Seine",
+    "zone": 78000,
+    "latitude": "48.912144",
+    "longitude": "2.272258",
+    "ouverture": "2014-06-25T22:00:00.000Z",
+    "fermeture": "2018-11-20T23:00:00.000Z"
+  }, {
+    "nom": "Bieregrad",
+    "adresse": "18-20 Rue de la Butte aux Cailles, 75013 Paris",
+    "zone": 75013,
+    "latitude": "48.827939",
+    "longitude": "2.350770",
+    "ouverture": "2014-06-30T22:00:00.000Z",
+    "fermeture": "2018-06-29T22:00:00.000Z"
+  }, {
+    "nom": "El Tast",
+    "adresse": "70 Rue Duhesme, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.893685",
+    "longitude": "2.343358",
+    "ouverture": "2014-06-30T22:00:00.000Z",
+    "fermeture": "2019-12-30T23:00:00.000Z"
+  }, {
+    "nom": "À la bière comme à la bière - Jourdain",
+    "adresse": "353 Rue des Pyrenées, 75020 Paris",
+    "zone": 75020,
+    "latitude": "48.872292",
+    "longitude": "2.391181",
+    "ouverture": "2014-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Caisse de Bières - Courbevoie",
+    "adresse": "21 Rue Kléber, 92400 Courbevoie",
+    "zone": 92000,
+    "latitude": "48.895147",
+    "longitude": "2.246865",
+    "ouverture": "2014-07-16T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Société parisienne de bière",
+    "adresse": "5 Rue des Moines, 75017 Paris",
+    "zone": 75017,
+    "latitude": "48.887590",
+    "longitude": "2.318033",
+    "ouverture": "2014-11-14T23:00:00.000Z",
+    "fermeture": "2019-07-09T22:00:00.000Z"
+  }, {
+    "nom": "Beerotek",
+    "adresse": "17 Rue de Satory, 78000 Versailles",
+    "zone": 78000,
+    "latitude": "48.800344",
+    "longitude": "2.124973",
+    "ouverture": "2015-03-12T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bock en Stock",
+    "adresse": "9 Rue Philippe de Dangeau, 78000 Versailles",
+    "zone": 78000,
+    "latitude": "48.803515",
+    "longitude": "2.133791",
+    "ouverture": "2015-03-31T22:00:00.000Z",
+    "fermeture": "2017-12-11T23:00:00.000Z"
+  }, {
+    "nom": "B&W &Co",
+    "adresse": "8 Rue de Paron, 91370 Verrières-le-Buisson",
+    "zone": 91000,
+    "latitude": "48.746573",
+    "longitude": "2.268260",
+    "ouverture": "2015-04-02T22:00:00.000Z",
+    "fermeture": "2016-12-30T23:00:00.000Z"
+  }, {
+    "nom": "Instant B",
+    "adresse": "17 Rue du Maréchal Foch, 78110 Le Vésinet",
+    "zone": 78000,
+    "latitude": "48.892909",
+    "longitude": "2.134766",
+    "ouverture": "2015-04-24T22:00:00.000Z",
+    "fermeture": "2019-07-12T22:00:00.000Z"
+  }, {
+    "nom": "So Bière",
+    "adresse": "3 Place André Malraux, 78100 Saint-Germain-en-Laye",
+    "zone": 78000,
+    "latitude": "48.896992",
+    "longitude": "2.095750",
+    "ouverture": "2015-06-29T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Ah! La pompe à bière",
+    "adresse": "7 ter Rue Duvergier, 75019 Paris",
+    "zone": 75019,
+    "latitude": "48.889210",
+    "longitude": "2.376789",
+    "ouverture": "2015-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Beer shop",
+    "adresse": "32 Rue Basfroi, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.855471",
+    "longitude": "2.379154",
+    "ouverture": "2015-06-30T22:00:00.000Z",
+    "fermeture": "2017-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Bière bodoma",
+    "adresse": "15 Rue de l'Asile Popincourt, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.860111",
+    "longitude": "2.375318",
+    "ouverture": "2015-07-01T22:00:00.000Z",
+    "fermeture": "2019-06-30T22:00:00.000Z"
+  }, {
+    "nom": "Bièrestube",
+    "adresse": "136 Rue de Vaugirard, 75015 Paris",
+    "zone": 75015,
+    "latitude": "48.844888",
+    "longitude": "2.318842",
+    "ouverture": "2015-06-30T22:00:00.000Z",
+    "fermeture": "2016-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Superbières",
+    "adresse": "203 Rue du Faubourg Saint-Martin, 75010 Paris",
+    "zone": 75010,
+    "latitude": "48.880089",
+    "longitude": "2.363639",
+    "ouverture": "2015-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Binouze Rochechouart",
+    "adresse": "72 Rue Marguerite de Rochechouart, 75009 Paris",
+    "zone": 75009,
+    "latitude": "48.881634",
+    "longitude": "2.346691",
+    "ouverture": "2015-10-31T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Beers & Records",
+    "adresse": "7 Rue de Vincennes, 93100 Montreuil",
+    "zone": 93000,
+    "latitude": "48.857532",
+    "longitude": "2.437540",
+    "ouverture": "2015-11-14T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Maurepas",
+    "adresse": "Rue Jean Perrin, 78310 Maurepas",
+    "zone": 78000,
+    "latitude": "48.759344",
+    "longitude": "1.916040",
+    "ouverture": "2015-11-14T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Brun Houblon",
+    "adresse": "116 Avenue Gabriel Péri, 91700 Sainte-Geneviève-des-Bois",
+    "zone": 91000,
+    "latitude": "48.647776",
+    "longitude": "2.325137",
+    "ouverture": "2015-12-03T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Incognito",
+    "adresse": "71 Rue de Charonne, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.853726",
+    "longitude": "2.380553",
+    "ouverture": "2016-02-03T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Orge & Houblon - Clamart",
+    "adresse": "30 Rue Paul Vaillant Couturier, 92140 Clamart",
+    "zone": 92000,
+    "latitude": "48.801644",
+    "longitude": "2.266253",
+    "ouverture": "2016-02-29T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "P'tite mousse",
+    "adresse": "29 Rue de Douai, 75009 Paris",
+    "zone": 75009,
+    "latitude": "48.882467",
+    "longitude": "2.332716",
+    "ouverture": "2016-03-25T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "107 bis",
+    "adresse": "107 bis Avenue de Saint-Ouen, 75017 Paris",
+    "zone": 75017,
+    "latitude": "48.894567",
+    "longitude": "2.327784",
+    "ouverture": "2016-05-10T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Chop Bières Team",
+    "adresse": "16 Rue Darnetal, 77100 Meaux",
+    "zone": 77000,
+    "latitude": "48.958733",
+    "longitude": "2.879544",
+    "ouverture": "2016-06-29T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Barbylone",
+    "adresse": "112 Rue Marcadet, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.891332",
+    "longitude": "2.341763",
+    "ouverture": "2016-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Gobibières",
+    "adresse": "3 Rue du Maine, 75014 Paris",
+    "zone": 75014,
+    "latitude": "48.840504",
+    "longitude": "2.323570",
+    "ouverture": "2016-06-30T22:00:00.000Z",
+    "fermeture": "2017-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Houblon ou Brune",
+    "adresse": "16 Rue de Cotte, 75012 Paris",
+    "zone": 75012,
+    "latitude": "48.849782",
+    "longitude": "2.377983",
+    "ouverture": "2016-06-30T22:00:00.000Z",
+    "fermeture": "2018-06-29T22:00:00.000Z"
+  }, {
+    "nom": "Byerroise",
+    "adresse": "2 Rue Pierre de Coubertin, 91330 Yerres",
+    "zone": 91000,
+    "latitude": "48.712966",
+    "longitude": "2.480278",
+    "ouverture": "2016-10-31T23:00:00.000Z",
+    "fermeture": "2019-10-28T23:00:00.000Z"
+  }, {
+    "nom": "Échoppe de Bières",
+    "adresse": "114 Rue du Général de Gaulle, 78300 Poissy",
+    "zone": 78000,
+    "latitude": "48.928031",
+    "longitude": "2.044770",
+    "ouverture": "2016-12-06T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - La Ville-du-Bois",
+    "adresse": "Allée St Fiacre, 91620 La Ville-du-Bois",
+    "zone": 91000,
+    "latitude": "48.650917",
+    "longitude": "2.270548",
+    "ouverture": "2017-01-14T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Frigo",
+    "adresse": "43 Rue de l'Ourcq, 75019 Paris",
+    "zone": 75019,
+    "latitude": "48.889631",
+    "longitude": "2.383281",
+    "ouverture": "2017-02-07T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières à l'affût",
+    "adresse": "18 Avenue de la Résistance, 91700 Sainte-Geneviève-des-Bois",
+    "zone": 91000,
+    "latitude": "48.623714",
+    "longitude": "2.333053",
+    "ouverture": "2017-02-28T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Molière",
+    "adresse": "12 Rue de Buci, 75006 Paris",
+    "zone": 75006,
+    "latitude": "48.853900",
+    "longitude": "2.337241",
+    "ouverture": "2017-02-28T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Rockout Shop",
+    "adresse": "40 Rue de Paris, 78600 Maisons-Laffitte",
+    "zone": 78000,
+    "latitude": "48.946728",
+    "longitude": "2.149802",
+    "ouverture": "2017-05-31T22:00:00.000Z",
+    "fermeture": "2020-02-01T23:00:00.000Z"
+  }, {
+    "nom": "Beers & Records épicerie",
+    "adresse": "17 Rue de l'Église, 93100 Montreuil",
+    "zone": 93000,
+    "latitude": "48.863892",
+    "longitude": "2.442868",
+    "ouverture": "2017-06-20T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Binouze Paradis",
+    "adresse": "11 Rue de Paradis, 75010 Paris",
+    "zone": 75010,
+    "latitude": "48.874569",
+    "longitude": "2.353960",
+    "ouverture": "2017-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bièrothèque belge",
+    "adresse": "40 Rue Hermel, 75018 Paris",
+    "zone": 75018,
+    "latitude": "48.893155",
+    "longitude": "2.345578",
+    "ouverture": "2017-06-30T22:00:00.000Z",
+    "fermeture": "2019-11-17T23:00:00.000Z"
+  }, {
+    "nom": "Comptoir des fromages et de la bière",
+    "adresse": "Marché Beauvau, Place d’Aligre, 75012 Paris",
+    "zone": 75012,
+    "latitude": "48.848997",
+    "longitude": "2.377779",
+    "ouverture": "2017-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Liquiderie",
+    "adresse": "9 Rue des Trois Bornes, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.866467",
+    "longitude": "2.371733",
+    "ouverture": "2017-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Ruée vers l'orge",
+    "adresse": "6 Rue des Fontaines du Temple, 75003 Paris",
+    "zone": 75003,
+    "latitude": "48.865642",
+    "longitude": "2.359604",
+    "ouverture": "2017-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières et Paix",
+    "adresse": "49 Rue Camille Pelletan 92300 Levallois-Perret",
+    "zone": 92000,
+    "latitude": "48.897400",
+    "longitude": "2.294320",
+    "ouverture": "2017-08-27T22:00:00.000Z",
+    "fermeture": "2019-10-30T23:00:00.000Z"
+  }, {
+    "nom": "Grain de pression",
+    "adresse": "67 Grande Rue, 78480 Verneuil-sur-Seine",
+    "zone": 78000,
+    "latitude": "48.980881",
+    "longitude": "1.975257",
+    "ouverture": "2017-09-08T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Murphy",
+    "adresse": "3 Rue du Maine, 75014 Paris",
+    "zone": 75014,
+    "latitude": "48.840504",
+    "longitude": "2.323570",
+    "ouverture": "2017-10-01T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Doctor Beer",
+    "adresse": "4 Place Jacques Amyot, 77000 Melun",
+    "zone": 77000,
+    "latitude": "48.538773",
+    "longitude": "2.658135",
+    "ouverture": "2017-11-30T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Orge & Houblon - Rambouillet",
+    "adresse": "14 Rue Gustave Eiffel, 78120 Rambouillet",
+    "zone": 78000,
+    "latitude": "48.624221",
+    "longitude": "1.825861",
+    "ouverture": "2017-12-25T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Servon",
+    "adresse": "6 Rue Georges Truffaut, 77170 Servon",
+    "zone": 77000,
+    "latitude": "48.710476",
+    "longitude": "2.584983",
+    "ouverture": "2018-03-14T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Hello my beer",
+    "adresse": "16 Rue de Ferrare, 77920 Fontainebleau",
+    "zone": 77000,
+    "latitude": "48.404110",
+    "longitude": "2.697948",
+    "ouverture": "2018-06-25T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Brétigny-sur-Orge",
+    "adresse": "12 Rue du Poitou, 91220 Brétigny-sur-Orge",
+    "zone": 91000,
+    "latitude": "48.589201",
+    "longitude": "2.300940",
+    "ouverture": "2018-06-29T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Des blondes et des brunes",
+    "adresse": "18-20 Rue de la Butte aux Cailles, 75013 Paris",
+    "zone": 75013,
+    "latitude": "48.827939",
+    "longitude": "2.350770",
+    "ouverture": "2018-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "The Beer and the Lady",
+    "adresse": "2 Rue de la Bidassoa, 75020 Paris",
+    "zone": 75020,
+    "latitude": "48.865177",
+    "longitude": "2.395479",
+    "ouverture": "2018-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Vape & Beer",
+    "adresse": "88 bis Boulevard de Port-Royal, 75014 Paris",
+    "zone": 75014,
+    "latitude": "48.839204",
+    "longitude": "2.339301",
+    "ouverture": "2018-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bièrcail",
+    "adresse": "14 Rue Gabriel Péri, 78800 Houilles",
+    "zone": 78000,
+    "latitude": "48.925123",
+    "longitude": "2.188587",
+    "ouverture": "2018-07-28T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Décapsuleur",
+    "adresse": "3 Rue des Pelletiers, 77260 La Ferté-sous-Jouarre",
+    "zone": 77000,
+    "latitude": "48.949110",
+    "longitude": "3.131096",
+    "ouverture": "2018-09-13T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Cave à Bières d'Orsay",
+    "adresse": "27 Rue Archange, 91400 Orsay",
+    "zone": 91000,
+    "latitude": "48.698284",
+    "longitude": "2.187203",
+    "ouverture": "2018-10-04T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Villabé",
+    "adresse": "3 Route de Villoison, 91100 Villabé",
+    "zone": 91000,
+    "latitude": "48.587045",
+    "longitude": "2.449467",
+    "ouverture": "2018-10-11T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "CVB&CO",
+    "adresse": "42 Rue d'Estienne d'Orves, 91370 Verrières-le-Buisson",
+    "zone": 91000,
+    "latitude": "48.740901",
+    "longitude": "2.251803",
+    "ouverture": "2018-10-15T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "BeerZ - Dourdan",
+    "adresse": "17 Rue Haute Foulerie, 91410 Dourdan",
+    "zone": 91000,
+    "latitude": "48.529428",
+    "longitude": "2.009936",
+    "ouverture": "2018-11-23T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Mozaik",
+    "adresse": "19 Rue de Penthièvre, 75008 Paris",
+    "zone": 75008,
+    "latitude": "48.872856",
+    "longitude": "2.316312",
+    "ouverture": "2019-01-14T23:00:00.000Z",
+    "fermeture": "2020-01-24T23:00:00.000Z"
+  }, {
+    "nom": "Caisse de Bières - Sèvres",
+    "adresse": "2 Place de Marivel, 92310 Sèvres",
+    "zone": 92000,
+    "latitude": "48.822900",
+    "longitude": "2.217600",
+    "ouverture": "2019-04-04T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Cormeilles-en-Parisis",
+    "adresse": "2 Allée des Coudrées, 95240 Cormeilles-en-Parisis",
+    "zone": 95000,
+    "latitude": "48.950561",
+    "longitude": "2.203470",
+    "ouverture": "2019-04-07T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bear Cave",
+    "adresse": "71 Rue du Bournard, 92700 Colombes",
+    "zone": 92000,
+    "latitude": "48.923300",
+    "longitude": "2.256251",
+    "ouverture": "2019-06-05T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "B.E.E.R. Paris",
+    "adresse": "3 Rue de la Forge Royale, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.850799",
+    "longitude": "2.380063",
+    "ouverture": "2019-06-30T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bière bodoma",
+    "adresse": "79 Boulevard Voltaire, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.860484",
+    "longitude": "2.376117",
+    "ouverture": "2019-07-01T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Ravitailleur",
+    "adresse": "8 Rue Marsoulan, 75012 Paris",
+    "zone": 75012,
+    "latitude": "48.845566",
+    "longitude": "2.403036",
+    "ouverture": "2019-09-25T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "V and B - Ormesson-sur-Marne",
+    "adresse": "9 Avenue de l'Hippodrome, 94510 La Queue-en-Brie",
+    "zone": 94000,
+    "latitude": "48.800896",
+    "longitude": "2.556254",
+    "ouverture": "2019-10-03T22:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Craft Beers & Cie - Saint-Cloud (Nicolas)",
+    "adresse": "12 bis Rue Dailly, 92210 Saint-Cloud",
+    "zone": 92000,
+    "latitude": "48.843488",
+    "longitude": "2.220752",
+    "ouverture": "2019-10-31T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Torche (Orge & Houblon)",
+    "adresse": "103 Boulevard Voltaire, 75011 Paris",
+    "zone": 75011,
+    "latitude": "48.859076",
+    "longitude": "2.378385",
+    "ouverture": "2019-12-25T23:00:00.000Z",
+    "fermeture": null
+  }, {
+    "nom": "Bières à l'affût - Thiais",
+    "adresse": "7 Esplanade Auguste Perret, 94320 Thiais",
+    "zone": 94000,
+    "latitude": "48.762698",
+    "longitude": "2.369276",
+    "ouverture": "2020-03-31T22:00:00.000Z",
+    "fermeture": null
+  }
+]
