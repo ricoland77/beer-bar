@@ -101,7 +101,12 @@ const Beer = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/beers">
+              <Link
+                to="/beers"
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
                 <div className="arrow-back">
                   <img src={arrow} alt="Arrow back" />
                 </div>

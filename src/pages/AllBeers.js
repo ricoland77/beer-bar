@@ -102,7 +102,13 @@ const AllBeers = ({
           const ebc = beer.ebc;
 
           return (
-            <Link key={beer.id} to={`/beer/${beer.id}`}>
+            <Link
+              key={beer.id}
+              to={`/beer/${beer.id}`}
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
               <div className="one-beer">
                 {beer.image_url ? (
                   <img

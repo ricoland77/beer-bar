@@ -121,7 +121,12 @@ const Header = ({
               </div>
             </div>
           </div>
-          <Link to="/random">
+          <Link
+            to="/random"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
             <button className="random-beer" onClick={fetchData}>
               Random beer
             </button>

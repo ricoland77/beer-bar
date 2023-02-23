@@ -92,13 +92,24 @@ const RandomBeer = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/beers">
+              <Link
+                to="/beers"
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
                 <div className="arrow-back">
                   <img src={arrow} alt="Arrow back" />
                 </div>
               </Link>
               <div className="arrow-refresh" onClick={refreshPage}>
-                <img src={refresh} alt="Arrow refresh" />
+                <img
+                  src={refresh}
+                  alt="Arrow refresh"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                />
               </div>
             </div>
           );

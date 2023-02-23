@@ -170,13 +170,13 @@ a {
   /* border: 1px solid red; */
   width: 100%;
   margin-top: -2px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0)),
+    url("./images/fabio-alves.jpg");
   background-attachment: fixed;
-  background-position: right;
+  background-position: right 50px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0)),
-    url("./images/fabio-alves.jpg");
 }
 
 .hat-home,
@@ -350,7 +350,7 @@ a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0)),
     url("./images/fabio-alves.jpg");
   background-attachment: fixed;
-  background-position: right;
+  background-position: right 50px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -384,7 +384,7 @@ a {
   align-items: center;
   padding: 20px;
   gap: 5px;
-  background-color: rgba(255, 255, 255, 0.457);
+  background-color: rgba(255, 255, 255, 0.7);
   box-shadow: rgba(84, 84, 84, 0.27) 0px 0px 0.25em,
     rgba(198, 198, 198, 0.05) 0px 0.25em 1em;
   position: relative;
@@ -434,11 +434,10 @@ a {
 }
 
 .tagline-beer {
-  font-size: 14px;
-  line-height: 16;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
   font-style: italic;
-  line-height: 16px;
   text-align: center;
 }
 
@@ -698,10 +697,6 @@ a {
   font-size: 50px;
   line-height: 45px;
   color: rgba(255, 255, 255, 0.5);
-}
-
-.sad-emoji {
-  height: 20px;
 }
 
 .cave {
