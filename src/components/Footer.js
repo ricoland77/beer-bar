@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
           <ul>
             <a
-              href="https://github.com/ricoland77"
+              href="https://github.com/ricoland77/beer-bar"
               target="_blank"
               rel="noreferrer"
             >
